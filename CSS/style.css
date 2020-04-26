@@ -1,0 +1,924 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pattaya&display=swap');
+
+*{
+    margin: 0;
+    padding:0;
+}
+
+html{
+    font-family: 'Playfair Display', serif;
+    scroll-behavior: smooth;
+}
+
+
+
+header a{
+    color: rgba(228, 241, 34, 0.89);
+}
+
+
+.main_container{
+    /* background-color: darkgray; */
+    
+    min-height: 3em;
+    padding-top: 0em;
+    font-weight: bold;
+    font-size: 1.2em;
+    padding-left: 3em;
+}
+
+.main_container a{
+    text-decoration: none;
+}
+
+.toggle{
+    margin: 0.5em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navigation 
+{
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+}
+
+.navigation li a{
+    padding: 0em 3em;
+    
+}
+
+.navigation :hover{
+    color:white;
+    font-size: 1em;
+}
+
+.main_section{
+    background-image: url('../images/background image1.jpg');
+    background-size: cover;
+    min-height: 70em;
+    position: relative;
+    
+}
+
+.intro{
+    /* background-color: red; */
+    height: 100%;
+    position: absolute;
+    top: 10em;
+    left: 2em;
+    color:wheat;
+    font-size: 2em;   
+}
+
+.intro{
+    line-height: 1.8em;
+}
+
+.rsm_btn{
+    padding: 1em;
+    background-color: transparent;
+    color: whitesmoke;
+    border-radius: 0.7em;
+    font-family:  serif;
+   font-size : 0.5em
+
+}
+
+.rsm_btn:hover{
+    background-color: greenyellow;
+    transition: 0.4s ease-in-out;
+    cursor: pointer;
+    color: black;
+}
+
+.social_media a{
+    position: absolute;
+    right:0;
+    bottom: 0.2em;
+    color: darkgray ;
+    list-style-type: none;
+    display: inline-block;
+    font-size: 1.8em;
+    padding-right: 0.5em;
+}
+
+#git{
+    margin-right: 2em;
+}
+
+.social_media a:hover{
+    color: whitesmoke;
+}
+
+/************** About me Section ***************/
+
+.about_me{
+ background: linear-gradient(to bottom right, rgb(218, 211, 211), rgb(221, 183, 189));
+
+    position: relative;
+    max-height: 50em;
+}
+
+.about_me_article{
+    position: relative;
+    min-height: 50em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about_me_details{
+    position: absolute;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 0.4fr 0.6fr;
+    max-width: 80em;
+    min-height: 20em;
+}
+
+.about_me_div {
+    position: absolute;
+    top: 2em;
+    left: 2em;
+}
+
+.abt_me_hdg{
+  
+    text-align: center;
+    font-size: 2.3em;
+}
+
+.my_pic{
+    text-align: center;  
+}
+
+.about_me_details_2{
+    line-height: 1.9em;
+
+}
+
+.crtfctn_and_achvemnts{
+    margin-top: 1em;
+    font-size: 1.5em;
+}
+
+.crtf_lst{
+    margin: 1em;
+    column-count: 1;
+    }
+
+/****************** WORK SECTION ****************/
+
+.wrk_sctn{
+    background: linear-gradient(to bottom right, rgb(194, 226, 139), rgb(220, 235, 233));
+
+    position: relative;
+}
+
+.wrk_div{
+    position: absolute;
+    top: 2em;
+    left: 2em;
+}
+
+.wrk{
+    position: relative;
+    min-height: 30em;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+ 
+.wrk_prnt_div
+{
+    position: absolute;
+    margin: auto;
+    display: block;
+    grid-template-columns: 1fr 1fr 1fr ;
+    max-width: 80em;
+    width: 50em;
+    min-height: 20em;
+    grid-gap: 10em;
+    margin-top: 1em;
+}
+
+.wrk_hdg{
+    
+    font-size: 2.0em;
+}
+
+
+.project{
+
+    min-height: 25em;
+    min-width: 25em;
+    /* border: 1px solid lightgray; */
+    border-radius: 0.5em ;
+    cursor: pointer;
+    transition: ease-in-out 0.3s;
+    position: relative;
+    display: grid;
+    grid-template-columns: 0.6fr 0.4fr;
+    width: 80em;
+    grid-gap: 1.5em;
+    margin-left: 5em;
+    padding-bottom: 0.5em;
+}
+
+/* .project:hover{
+    box-shadow: 0.5em 0.5em 0.5em #d3d3d3;
+} */
+
+.prjt_dscp{
+    line-height: 1.8em;
+}
+
+.prjt_dscp h2{
+    text-align: center;
+    color: black;
+}
+
+.prjt_dscp p{
+    margin-top: 1em;
+    font-size: 1em;
+}
+
+.tch_usd{
+    margin-left: 1em;
+    list-style-type: disc;
+    margin-top: 2em;
+    column-count: 1;
+}
+
+.trb_hd{
+    /* position: absolute; */
+    text-align: center;
+    font-size: 1.2em;
+    margin-top: 0em;
+    padding-top: 6em;
+    color: Blue;
+}
+
+/* #travellingBud{
+    text-align: center;
+} */
+
+.tch_usd_hd{
+    margin-top: 0.5em;
+    color: black;
+}
+
+
+/************************ SKILLS SECTION *************************/
+
+.skls_sctn{
+    position: relative;
+    margin-top: 0em;
+    background: linear-gradient(to bottom right, rgb(197, 223, 151), rgb(220, 235, 233));
+}
+
+
+  
+
+
+.skls_div{
+    position: absolute;
+    top: 2em;
+    left: 2em;
+}
+
+.skls_hd{
+   
+    font-size: 2em;
+    
+}
+
+.skls_artcle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10em;
+    padding-bottom: 5em;
+}
+
+.skls_chld_divs{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 3em;
+}
+
+.srvs_hd{
+    font-size: 1.4em;
+    margin:0.5em;
+    color: rgba(228, 241, 34, 0.89);
+    
+    
+}
+
+.srvs_div{
+    line-height: 1.8em;
+    background: linear-gradient(to bottom right, rgb(39, 39, 30), rgb(54, 80, 63));
+    border-radius: 0.5em;
+    text-align: center;
+    padding-top: 2em;
+    font-size: 1em;
+    color: white;
+    padding-bottom: 2em;
+
+}
+
+.skls_list{
+    list-style-type: none;
+    margin-top: 1em;
+    
+    font-weight: bold;
+    margin: 1em;
+}
+
+
+.srvs_div p{
+    margin: 1em 0em;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+
+.img{
+    position: relative;
+    z-index: 0;
+    
+}
+
+.prj_img:hover{
+    opacity: 0.5;
+}
+
+.img a{
+    opacity: 0;
+    position: absolute;
+    top:50%;
+    left: 50%;
+    /* right: 50%; */
+    bottom: 50%;
+    color: darkblue;
+    text-decoration: none;
+}
+
+.img:hover a {
+        opacity: 1;
+}
+
+
+#vc{
+    position: absolute;
+    top:50%;
+    left: 30%;
+    right: 30%;
+    bottom: 50%;
+}
+
+.cntct_divs h1{
+    text-align: left;
+    margin: 1em;
+    font-size:1.2em
+}
+
+.scl_mda{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    min-width: 10em;
+    
+    min-height: 2em;
+    font-size: 5em;
+    text-align: center;
+    align-items:  center;
+}
+
+.gthb_lnk{
+    text-decoration: none;
+    color: black;
+}
+
+.alt_cntct h1{
+    text-align: center;
+}
+
+.footer{
+    margin-top: 0;
+    
+    background-color: rgb(15, 14, 14);
+}
+
+.copyrights{
+    text-align: center;
+    padding: 1em;
+    color : white;
+    border: 2px solid black;
+}
+
+
+
+#menu{
+    position: absolute;
+    top:1em;
+    right: 1em;
+    color: white;
+    display: none;
+}
+
+#menu:hover{
+    color: darkgray;
+    cursor: pointer;
+}
+
+
+
+/***************** Breakpoints for various devices *********************/
+
+/* @media (min-width: 576px) {  */
+    /* ----------- iPhone 6, 6S, 7 and 8 ----------- */
+ 
+ 
+@media only screen
+ 
+and (min-device-width: 375px)
+ 
+and (max-device-width: 667px){
+
+    .name_title{
+        position: absolute;
+        top: 0.5em;
+        left: 0.5em;
+    }
+
+    .navigation{
+        display: none;
+        /* width: 0; */
+    }
+
+    .navigation li a{
+        padding:0;
+    }
+
+    .menu_visible{
+  
+        display: block;
+        text-align: center;
+        margin-left: auto;
+        margin-top: 2em;
+        margin-right: auto;
+    }
+
+    .menu_visible li {
+        padding-top: 0.5em;
+      
+    }
+    
+
+    .menu_visible li a{
+        display: block;
+    }
+
+    .intro {
+        display: block;
+        /* background-color: red; */
+        height: 100%;
+        position: absolute;
+        top: 6.5em;
+        left: 2em;
+        color: darkgray;
+        font-size: 2em;
+    }
+
+    /* .navigation.toggle{
+        display: block;
+    } */
+
+    #menu{
+        display: block;
+    }
+
+    .main_section{
+        min-width: 23em;
+        min-height: 42em;
+    }
+
+    .about_me{
+        padding-top: 8em;
+    }
+
+    .trb_hd h1{
+        text-align: left;
+    margin-left: 1em;
+
+    }
+
+   .about_me_article{
+       padding-top: 5em;
+   }
+
+   .about_me_details_2{
+       text-align: center;
+       margin-bottom: 20em;
+   }
+
+   .li{
+       margin-left: 1em;
+   }
+
+    .about_me_details{
+        display: block;
+    }
+
+    .img_my_pic{
+        margin-top: 20em;
+    }
+
+    #project2{
+        margin-top: 5em;
+        padding-top: 6em;
+    }
+
+    .img {
+        /* width: 30em; */
+        position: relative;
+        z-index: 0;
+        height: 15em;
+    }
+
+    .project{
+        display: block;
+        width: 0em;
+        text-align: center; 
+        margin-left: 1em;
+    }
+
+    /* .wrk{
+        margin-top: 4em;
+    } */
+
+    .wrk_div{
+        top:1em;
+        left:1em
+    }
+
+    /* .trb_hd{
+        padding:5em 0em;
+    } */
+
+    /* .trb_hd h1{
+        margin:2em
+    } */
+
+    .wrk_prnt_div{
+        width: 0em;
+        display: block;
+    }
+
+    .skls_chld_divs{display: block;}
+
+    .scl_mda{
+        display: block;
+        background-color: transparent;
+        min-width: 0;
+    }
+    .prjt_dscp
+    {
+        margin: 2em 0em;
+        width: 20em;
+    }
+
+    .skls_hd{
+        margin-top: 1em ;
+    }
+    .skls_sctn{
+        margin: 0;
+    }
+    
+    #skls_sctn{
+        padding-top: 9em;
+    }
+
+    #skls_div{
+        margin-top: 9.5em;
+    }
+    
+    .trb_hd {
+        text-align: center;
+        font-size: 1.2em;
+        margin-top: 14em;
+        padding-top: 5em;
+        color: darkgreen;
+    }
+
+    .img{
+        width: 21em;
+        height: 10em;
+    }
+    
+    /* .skls_sctn{
+        margin-top: 10em;
+    } */
+
+    .skls_div
+    {
+        position: absolute;
+        top: 1em;
+        left: 1em;
+    }
+
+    .logo{
+        padding-top: 0.5em;
+    }
+
+    .srvs_div{
+        margin: 1em;
+    }
+
+    .skls_artcle{
+        /* margin-top: 10em; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 7em;
+    }
+
+    #project3{
+        margin-top: 15em;
+    }
+
+    #project4{
+        margin-top: 13em;
+    }
+
+    #hood{
+        margin-top: 10em;
+    }
+
+    #trbd_art{
+        /* margin-top: 9em; */
+        min-height: 40em;
+        display: block;
+    }
+
+    #chatMate{
+        margin-top: 4em;
+    }
+
+    #geeks{
+        margin-top: 7em;
+    }
+
+}
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 375px) {
+
+    .name_title{
+        position: absolute;
+        top: 0.5em;
+        left: 0.5em;
+    }
+
+    .navigation{
+        display: none;
+        /* width: 0; */
+    }
+
+    .navigation li a{
+        padding:0;
+    }
+
+    .menu_visible{
+  
+        display: block;
+        text-align: center;
+        margin-left: auto;
+        margin-top: 2em;
+        margin-right: auto;
+    }
+
+    .menu_visible li {
+        padding-top: 0.5em;
+      
+    }
+
+    .intro{top: 6.5em;}
+    
+    .about_me_details{
+        display: block;
+    }
+
+    .about_me_div{
+        position: absolute;
+    top: 3em;
+    left: 1em;
+
+    }
+
+
+    #menu{
+        display: block;
+    }
+
+    .main_section{
+        min-width: 23em;
+        min-height: 42em;
+    }
+
+    .about_me{
+        padding-top: 8em;
+    }
+
+    .trb_hd h1{
+        text-align: left;
+    margin-left: 1em;
+
+    }
+
+   .about_me_article{
+       padding-top: 5em;
+   }
+
+   .about_me_details_2{
+       text-align: center;
+       margin-bottom: 20em;
+   }
+
+   .li{
+       margin-left: 1em;
+   }
+
+    .about_me_details{
+        display: block;
+    }
+
+    .img_my_pic{
+        margin-top: 27em;
+    }
+
+    #project2{
+        margin-top: 5em;
+        padding-top: 6em;
+    }
+
+    .img {
+        /* width: 30em; */
+        position: relative;
+        z-index: 0;
+        height: 15em;
+    }
+
+    .project{
+        display: block;
+        width: 0em;
+        text-align: center; 
+        margin-left: 1em;
+    }
+
+    .wrk_div{
+        top:1em;
+        left:1em
+    }
+
+  
+    .wrk_prnt_div{
+        width: 0em;
+        display: block;
+    }
+
+    .skls_chld_divs{display: block;}
+
+    .scl_mda{
+        display: block;
+        background-color: transparent;
+        min-width: 0;
+    }
+    .prjt_dscp
+    {
+        margin: 2em 0em;
+        width: 20em;
+    }
+
+    .skls_hd{
+        margin-top: 1em ;
+    }
+    .skls_sctn{
+        margin: 0;
+    }
+    
+    #skls_sctn{
+        padding-top: 9em;
+    }
+
+    #skls_div{
+        margin-top: 9.5em;
+    }
+    
+    .trb_hd {
+        text-align: center;
+        font-size: 1.2em;
+        margin-top: 14em;
+        padding-top: 5em;
+        color: darkgreen;
+    }
+
+    .img{
+        width: 21em;
+        height: 10em;
+    }
+    
+    /* .skls_sctn{
+        margin-top: 10em;
+    } */
+
+    .skls_div
+    {
+        position: absolute;
+        top: 1em;
+        left: 1em;
+    }
+
+ .my_info h4{
+     color : darkblue;
+
+ }
+
+    .logo{
+        padding-top: 0.2em;
+    }
+
+    .srvs_div{
+        margin: 1em;
+    }
+
+    .skls_artcle{
+        /* margin-top: 10em; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 7em;
+    }
+
+    #project3{
+        margin-top: 15em;
+    }
+
+    #project4{
+        margin-top: 13em;
+    }
+
+    #hood{
+        margin-top: 10em;
+    }
+
+    #trbd_art{
+        /* margin-top: 9em; */
+        min-height: 40em;
+        display: block;
+    }
+
+    #chatMate{
+        margin-top: 4em;
+    }
+
+    #geeks{
+        margin-top: 7em;
+    }
+
+    #menu{
+        position: absolute;
+        top:1.5em;
+        right: 1em;
+        color: white;
+    }
+
+    .main_section{
+        min-width: 20em;
+        min-height: 42em;
+    }
+
+    .trb_hd{
+        margin-top: 19em;
+    }
+
+    .prjt_dscp{
+        width: 18em;
+    }
+
+    .img{
+        width: 18em;
+        height: 9em;
+    }
+
+    .cntct_divs h1 {
+        text-align: center;
+        margin: 1em;
+        font-size: 1.1em;
+    }
+
+
+    }
