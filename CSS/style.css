@@ -198,7 +198,7 @@ header a{
     position: absolute;
     margin: auto;
     display: block;
-    grid-template-columns: 1fr 1fr 1fr ;
+    grid-template-columns: 1fr  1fr ;
     max-width: 80em;
     width: 50em;
     min-height: 20em;
