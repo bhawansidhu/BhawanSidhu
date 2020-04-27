@@ -263,9 +263,7 @@ header a{
     color: Blue;
 }
 
-/* #travellingBud{
-    text-align: center;
-} */
+
 
 .tch_usd_hd{
     margin-top: 0.5em;
@@ -655,7 +653,7 @@ and (max-device-width: 667px){
         margin-top: 13em;
     }
 
-    #hood{
+    #fashion{
         margin-top: 10em;
     }
 
@@ -669,7 +667,7 @@ and (max-device-width: 667px){
         margin-top: 4em;
     }
 
-    #geeks{
+    #edu{
         margin-top: 7em;
     }
 
@@ -871,7 +869,7 @@ and (max-device-width: 667px){
         margin-top: 13em;
     }
 
-    #hood{
+    #fashion{
         margin-top: 10em;
     }
 
@@ -885,7 +883,7 @@ and (max-device-width: 667px){
         margin-top: 4em;
     }
 
-    #geeks{
+    #edu{
         margin-top: 7em;
     }
 
